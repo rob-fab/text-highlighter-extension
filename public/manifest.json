@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Highlights Manager",
+  "version": "1.0",
+  "description": "Allows to save a selected text",
+  "chrome_url_overrides": {
+    "newtab": "./index.html"
+  },
+  "background": {
+    "service_worker": "./static/js/background.js",
+    "type": "module"
+  },
+  "permissions": ["storage", "contextMenus"],
+  "icons": {
+    "48": "logo.png"
+  }
+}
