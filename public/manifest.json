@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Highlights Manager",
+  "name": "Your Highlights",
   "version": "1.0",
   "description": "Allows to save a selected text",
   "chrome_url_overrides": {

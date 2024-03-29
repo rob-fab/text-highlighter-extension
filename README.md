@@ -1,4 +1,4 @@
-# Highlights Manager
+# Your Highlights chrome extension
 
 This is a chrome extension that allows you to save selected text and display it in the new page tab. It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -41,3 +41,8 @@ The build is minified and the filenames include the hashes.\
 
    Once Developer mode is on, you'll see new buttons appear at the top of the extensions page. Click the button labeled "LOAD UNPACKED".
    A file browser window will pop up. Navigate to the build folder containing the extension's unzipped build files. Select the folder and click "Open" or "OK".
+
+## How to use the extension:
+
+Once the extension is added, you can select any text on a website, right click and choose an option to "Save selection". Now, when you open a new tab, you should see the newly added selection in the table.
+If you want to remove the selection, just use the "Remove" button.
